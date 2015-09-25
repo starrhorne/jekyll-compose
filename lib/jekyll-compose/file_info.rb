@@ -14,6 +14,16 @@ class Jekyll::Compose::FileInfo
       ---
       layout: #{params.layout}
       title: #{params.title}
+      author: starr # ben josh
+      excerpt: ''
+      categories:
+        #- Ruby
+        #- Rails
+        #- Elixir
+        #- Javascript
+        #- Go
+        #- News
+        #- Features
       ---
     CONTENT
   end
